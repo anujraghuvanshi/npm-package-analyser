@@ -1,6 +1,6 @@
 {
   "name": "npm-package-analyser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Smart Dependency Report: direct + transitive deps (lockfile), latest versions, OSV security, CLI and optional PDF",
   "license": "MIT",
   "author": "Anuj Raghuvanshi",

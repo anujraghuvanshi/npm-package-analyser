@@ -52,9 +52,9 @@ npm run report -- /path/to/project --no-interactive --no-pdf
 
 ## Report format
 
-**Table:** package name, secure status, installed vs latest version, update type (patch / minor / major / latest), size, last publish.
+**Table:** package name, secure status, installed vs latest version, update type (patch / minor / major / latest), size, last publish. The table is **always printed** when there is at least one analyzed package. If you choose **“only packages that match your severity choice”** but **none** match (for example the project has **no known vulnerabilities** at that threshold), the tool still prints the **full** dependency table and a short note explaining why the filter had nothing to show.
 
-**Summary:** dependency health counts, security status, highest-priority (critical / high) items, packages with vulnerabilities (per your severity focus), recommendations, overall status, and optionally a prompt to export a PDF.
+**Summary:** dependency health counts, security status, highest-priority (critical / high) items, packages with vulnerabilities (per your severity focus), recommendations, overall status, and optionally a prompt to export a PDF. Summary counts and vulnerability lists still use the **full** analyzed set, not the filtered table.
 
 ### Examples
 
