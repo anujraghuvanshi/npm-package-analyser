@@ -1,0 +1,45 @@
+{
+  "name": "npm-package-analyser",
+  "version": "0.0.1",
+  "description": "Smart Dependency Report: direct + transitive deps (lockfile), latest versions, OSV security, CLI and optional PDF",
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "npm",
+    "dependencies",
+    "security",
+    "osv",
+    "cli",
+    "audit"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "npm-package-analyser": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "scripts",
+    "docs",
+    "README.md"
+  ],
+  "scripts": {
+    "report": "node scripts/report.cjs", 
+    "report:self": "node scripts/report.cjs ."
+  },
+  "dependencies": {
+    "@yarnpkg/lockfile": "^1.1.0",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "ora": "^5.4.1",
+    "pdfkit": "^0.15.0",
+    "prompts": "^2.4.2",
+    "semver": "^7.6.3"
+  }
+}
