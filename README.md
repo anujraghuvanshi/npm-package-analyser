@@ -60,11 +60,11 @@ npm run report -- /path/to/project --no-interactive --no-pdf
 
 **Dependency table**
 
-![Dependency table](docs/report-table.png)
+![Dependency table](https://raw.githubusercontent.com/anujraghuvanshi/npm-package-analyser/main/docs/report-table.png)
 
 **Summary**
 
-![Summary](docs/report-summary.png)
+![Summary](https://raw.githubusercontent.com/anujraghuvanshi/npm-package-analyser/main/docs/report-summary.png)
 
 ## License
 

@@ -1,12 +1,12 @@
 {
   "name": "npm-package-analyser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Smart Dependency Report: direct + transitive deps (lockfile), latest versions, OSV security, CLI and optional PDF",
   "license": "MIT",
-  "author": "",
+  "author": "Anuj Raghuvanshi",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/anujraghuvanshi/npm-package-analyser.git"
   },
   "keywords": [
     "npm",
